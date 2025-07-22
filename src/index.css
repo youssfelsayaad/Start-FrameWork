@@ -1,0 +1,73 @@
+.text-Dblue{
+    color: #2c3e50 !important; 
+}
+.container70{
+    width: 70% !important;
+}
+.active{
+    background-color: #1abc9c !important;
+    font-weight: 800 !important;
+    border-radius: 15px;
+}
+li.nav-item{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.line{
+    background-color: white;
+    height: 5px; ;
+    width: 25%;
+}
+.lineDark{
+    background-color: #2c3e50;
+    height: 5px; ;
+    width: 25%;
+}
+.row-line{
+    width: 13%;
+}
+
+.bg-ment{
+     background-color: #1abc9c !important;
+}
+.Layout-color{
+     background-color: #2c3e50 !important;
+}
+
+a img{
+    border-radius: 20px !important;
+}
+
+.col-md-4{
+    position: relative;
+}
+.inner{
+    display: flex;
+    position: absolute;
+   
+    top: 6px;
+    left: 25px;
+    right: 24px;
+    bottom: 7px;
+    transition: all 0.3s ease-in-out;
+    background-color:#1abc9c90;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.col-md-4:hover .inner{
+    z-index: 1;
+}
+
+.links .rounded-circle{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.btn-success{
+    background-color: #1abc9c !important;
+    border-color: #1abc9c !important;
+}
